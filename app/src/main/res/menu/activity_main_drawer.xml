@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group >
+        <item
+            android:id="@+id/nav_dailyTask"
+            android:icon="@mipmap/today_tasklist"
+            android:title="Today's Task" />
+        <item
+            android:id="@+id/nav_taskStatus"
+            android:icon="@mipmap/task_status"
+            android:title="Task Status" />
+        <item
+            android:id="@+id/nav_Customer"
+            android:icon="@mipmap/man"
+            android:title="Customer" />
+        <item
+            android:id="@+id/nav_AddRequisition"
+            android:icon="@mipmap/add_task"
+            android:title="Add Requisition" />
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_Logout"
+                android:icon="@mipmap/logout"
+                android:title="Log Out" />
+
+        </menu>
+    </item>
+
+</menu>

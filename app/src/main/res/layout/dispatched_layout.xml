@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">:
+	<LinearLayout
+	   android:layout_width="fill_parent"
+	   android:layout_height="wrap_content"
+	   android:orientation="vertical">
+  	  <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="44dp" 
+          android:gravity="center">
+              
+           <TextView
+              android:id="@+id/Name_dispatched"
+              android:layout_width="120dp"
+              android:layout_height="wrap_content"
+              android:gravity="left|center_vertical"
+              android:layout_marginLeft="5dp"
+              android:layout_centerVertical="true"
+              android:text="Name:"      
+              android:textColor="@android:color/black"             
+              android:textStyle="bold"/>
+
+           <TextView
+              android:id="@+id/NameTextView_dispatched"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left|center_vertical"
+              android:layout_marginLeft="5dp"
+              android:textColor="@android:color/black"         
+              android:layout_centerVertical="true"
+              android:layout_toRightOf="@+id/Name_dispatched" />
+         </RelativeLayout>
+         
+         <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="44dp"          
+          android:gravity="center">
+              
+           <TextView
+            android:id="@+id/Requisition_dispatched"
+              android:layout_width="120dp"
+              android:layout_height="wrap_content"
+              android:gravity="left|center_vertical"
+              android:layout_marginLeft="5dp"
+              android:textColor="@android:color/black"         
+              android:layout_centerVertical="true"
+              android:text="Requisition:"                   
+              android:textStyle="bold"/>
+
+           <TextView
+              android:id="@+id/RequisitionTextView_dispached"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left|center_vertical"
+              android:layout_marginLeft="5dp"
+              android:textColor="@android:color/black"         
+              android:layout_centerVertical="true"
+              android:layout_toRightOf="@+id/Requisition_dispatched" />
+         </RelativeLayout>
+        
+         
+          <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="44dp" 
+          android:gravity="center">
+              
+           <TextView
+            android:id="@+id/Status"
+              android:layout_width="120dp"
+              android:layout_height="wrap_content"
+              android:gravity="left|center_vertical"
+              android:layout_marginLeft="5dp"
+              android:layout_centerVertical="true"
+              android:textColor="@android:color/black"         
+              android:text="Status:"                   
+              android:textStyle="bold"/>
+			<Spinner
+		        android:id="@+id/spinnerstatus_dispached"
+		        android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:gravity="left|center_vertical"
+	            android:textColor="@android:color/black"         
+	            android:layout_marginLeft="5dp"
+	            android:layout_centerVertical="true"
+		        android:layout_toRightOf="@+id/Status"/>
+           
+         </RelativeLayout>
+         <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="44dp" 
+          android:gravity="center">
+              
+           <TextView
+            android:id="@+id/SuspendDate"
+              android:layout_width="120dp"
+              android:layout_height="wrap_content"
+              android:gravity="left|center_vertical"
+              android:layout_marginLeft="5dp"
+              android:layout_centerVertical="true"
+              android:textColor="@android:color/black"         
+              android:text="Till Date:"                   
+              android:textStyle="bold"/>
+			 <Button
+                     android:id="@+id/calbutton_dispatch"
+                     android:layout_width="40dp"
+                     android:layout_height="40dp"
+                     android:layout_centerVertical="true"
+                     android:layout_marginLeft="5dp"                     
+                     android:background="@drawable/btn_cal"
+                     android:layout_toRightOf="@+id/SuspendDate"
+                     android:gravity="left|center_vertical" />
+
+                <EditText
+                    android:id="@+id/suspendDateEditText_dispatch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/calbutton_dispatch"
+                    android:ems="10"                   
+                    android:hint="Targeted Date"
+                    android:enabled="false"
+                    android:gravity="left|center_vertical" >
+                    <requestFocus />
+                </EditText>
+           
+         </RelativeLayout>
+          <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="44dp" >
+              
+           <TextView
+            android:id="@+id/Description_dispached"
+              android:layout_width="120dp"
+              android:layout_height="wrap_content"
+              android:gravity="left|center_vertical"
+              android:layout_marginLeft="5dp"
+              android:textColor="@android:color/black"         
+              android:layout_centerVertical="true"
+              android:text="Description:"                   
+              android:textStyle="bold"/>
+         </RelativeLayout>
+         <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp" 
+          android:gravity="center">
+           
+              <EditText
+              android:id="@+id/DescriptionEditText_dispatched"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left|center_vertical"
+              android:layout_marginLeft="5dp"
+              android:textColor="@android:color/black"         
+              android:layout_centerVertical="true" />
+         </RelativeLayout>
+         
+        <LinearLayout
+       	android:id="@+id/middle_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/linear_top"
+        android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/xbtnSubmit_Dispatch"
+                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+    </LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

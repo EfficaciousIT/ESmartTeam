@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "494495766673",
+    "firebase_url": "https://esmartteam-45321.firebaseio.com",
+    "project_id": "esmartteam-45321",
+    "storage_bucket": "esmartteam-45321.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494495766673:android:13317f8974e3aee5",
+        "android_client_info": {
+          "package_name": "com.mobi.efficacious.esmartteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494495766673-6srqae3eu615tsiqjl48cfb5472tcqg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobi.efficacious.esmartteam",
+            "certificate_hash": "06324932fd2ae527bf83928fbbaffbf3e54e7230"
+          }
+        },
+        {
+          "client_id": "494495766673-teo6h62hc2a8j6e04lal71o67uee74a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO2RoVVbZFKOj8s9n1TiynHf4VanLXyKo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494495766673-teo6h62hc2a8j6e04lal71o67uee74a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

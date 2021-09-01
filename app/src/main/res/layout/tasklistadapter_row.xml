@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/Id"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:text="Id:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/IdtextView_tasklist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/Id" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:text="Name:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/NametextView_tasklist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/Name" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/Requisition"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:text="Requisition:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/RequisitiontextView_tasklist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/Requisition" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/MobileNo"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:text="Mobile No:"
+                android:textStyle="bold"/>
+
+
+
+            <TextView
+                android:id="@+id/MobiletextView_tasklist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/MobileNo" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/Address"
+                android:layout_width="100dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:text="Address:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/addresstextView_tasklist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/Address" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/Status"
+                android:layout_width="100dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:text="Status"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/statustextView_tasklist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/Status" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/TargetDate"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:text="Target Date:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TargetDatetextView_tasklist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="2dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/TargetDate" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/Description"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:text="Description:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/DescriptiontextView_tasklist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="2dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/Description" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/Edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/Red"
+                android:layout_centerVertical="true"
+                android:text="Edit"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
